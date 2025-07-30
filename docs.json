@@ -6,75 +6,73 @@
   "colors": {
     "primary": "#16A34A",
     "light": "#4ADE80",
-    "dark": "#15803D",
-    "background": {
-      "dark": "#0F0F11",
-      "light": "#FFFFFF"
-    }
+    "dark": "#15803D"
   },
-  "topbarCtaButton": {
-    "name": "Launch App",
-    "url": "https://dashboard.pulsr.com"
+  "navigation": {
+    "groups": [
+      {
+        "group": "📘 Getting Started",
+        "pages": [
+          "index",
+          "what-is-pulsr",
+          "key-features",
+          "quick-start-guide",
+          "faq"
+        ]
+      },
+      {
+        "group": "⚙️ How It Works",
+        "pages": [
+          "real-time-monitoring",
+          "ai-pipeline",
+          "market-impact",
+          "dashboard-integration"
+        ]
+      },
+      {
+        "group": "📡 Alerts & Output",
+        "pages": [
+          "what-gets-posted",
+          "tweet-format",
+          "limitations"
+        ]
+      },
+      {
+        "group": "🤖 AI & Models",
+        "pages": [
+          "nlp-models",
+          "relevance-sentiment"
+        ]
+      },
+      {
+        "group": "💬 Support & Community",
+        "pages": [
+          "contact-feedback",
+          "twitter-discord"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "topbarLinks": [
-  ],
-  "navigation": [
-    {
-      "group": "📘 Getting Started",
-      "pages": [
-        "index",
-        "what-is-pulsr",
-        "key-features",
-        "quick-start-guide",
-        "faq"
-      ]
-    },
-    {
-      "group": "⚙️ How It Works",
-      "pages": [
-        "real-time-monitoring",
-        "ai-pipeline",
-        "market-impact",
-        "dashboard-integration"
-      ]
-    },
-    {
-      "group": "📡 Alerts & Output",
-      "pages": [
-        "what-gets-posted",
-        "tweet-format",
-        "limitations"
-      ]
-    },
-    {
-      "group": "🤖 AI & Models",
-      "pages": [
-        "nlp-models",
-        "relevance-sentiment"
-      ]
-    },
-    {
-      "group": "💬 Support & Community",
-      "pages": [
-        "contact-feedback",
-        "twitter-discord"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "twitter": "https://x.com/pulsrnews"
-  },
-  "analytics": {
-    "gtm": {
-      "tagId": "GTM-XXXXXX"
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@pulsr.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Launch App",
+      "href": "https://dashboard.pulsr.com"
     }
   },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": false
+  "footer": {
+    "socials": {
+      "x": "https://x.com/pulsrnews"
+    }
   }
 }
