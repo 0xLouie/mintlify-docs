@@ -3,4 +3,16 @@ title: "Relevance, Sentiment & Summarization Logic"
 description: "How Pulsr determines relevance, sentiment, and creates summaries"
 ---
 
-[Content coming soon...] 
+## Relevance, Sentiment & Summarization Logic
+
+Pulsr's AI agent operates on a modular pipeline:
+
+* **Entity Extraction:** Identifies markets/assets involved
+* **Relevance Scoring:** Determines whether a tweet should be processed
+* **Sentiment Modeling:** Classifies tone (bullish, bearish, neutral)
+* **Impact Prediction:** Scores the tweet's likely influence on the market using a proprietary hybrid model based on market volatility data and backtested reactions
+* **Summarization:** Generates a concise, readable output for Twitter and the dashboard
+
+All AI components are custom-integrated — this is **not** a ChatGPT wrapper. There's no prompt/response model involved. Pulsr uses autonomous AI agents built for real-time decision-making.
+
+Training is ongoing — we feed the system new labeled news every day to improve accuracy and context awareness. 

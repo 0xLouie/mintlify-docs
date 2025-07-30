@@ -3,4 +3,11 @@ title: "AI Pipeline & Sentiment Analysis"
 description: "Understanding Pulsr's AI processing pipeline"
 ---
 
-[Content coming soon...] 
+## AI Pipeline & Sentiment Analysis
+
+Once a tweet is detected, Pulsr's AI agent processes it through multiple layers:
+
+1. **NLP Filtering**: Using lightweight transformer models (e.g. DistilBERT), the content is parsed to extract relevant entities (tickers, assets, topics) and eliminate noise.
+2. **Sentiment Classification**: FinBERT-based classifiers analyze tone and polarity to determine whether the news is bullish, bearish, or neutral.
+3. **Impact Modeling**: A proprietary scoring algorithm models potential market impact, factoring in news type, asset class, historical reaction patterns, and market volatility.
+4. **Summarization**: A structured, plain-English summary is generated, optimized for fast consumption by traders. 
