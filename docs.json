@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Pulsr",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,67 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "📘 Getting Started",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "what-is-pulsr",
+              "key-features",
+              "quick-start-guide",
+              "faq"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "⚙️ How It Works",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Core Features",
             "pages": [
-              "api-reference/introduction"
+              "real-time-monitoring",
+              "ai-pipeline",
+              "market-impact",
+              "dashboard-integration"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "📡 Alerts & Output",
+        "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Output & Formatting",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "what-gets-posted",
+              "tweet-format",
+              "limitations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "🤖 AI & Models",
+        "groups": [
+          {
+            "group": "Technical Details",
+            "pages": [
+              "nlp-models",
+              "relevance-sentiment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "💬 Support & Community",
+        "groups": [
+          {
+            "group": "Get Help",
+            "pages": [
+              "contact-feedback",
+              "twitter-discord"
             ]
           }
         ]
@@ -71,19 +80,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Twitter",
+          "href": "https://x.com/pulsrnews",
+          "icon": "x"
         }
       ]
     }
@@ -96,20 +95,18 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@pulsr.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.pulsr.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/pulsrnews"
     }
   }
 }

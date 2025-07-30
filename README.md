@@ -1,44 +1,30 @@
-# Mintlify Starter Kit
+# Pulsr Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+This is the documentation site for Pulsr, an AI-powered platform that monitors real-time news and provides instant market insights through intelligent sentiment analysis and asset detection.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Features
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+- Real-time news monitoring
+- AI-powered sentiment analysis
+- Market impact detection
+- Twitter integration
+- Advanced NLP models (DistilBERT, FinBERT)
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+## Getting Started
 
-## Development
+1. Clone this repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+## Documentation Structure
 
-```
-npm i -g mint
-```
+- **📘 Getting Started**: Introduction, features, quick start guide, and FAQ
+- **⚙️ How It Works**: Technical details about monitoring, AI pipeline, and integrations
+- **📡 Alerts & Output**: Information about what gets posted and formatting
+- **🤖 AI & Models**: Technical details about NLP models and algorithms
+- **💬 Support & Community**: Contact information and community links
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## Twitter
 
-```
-mint dev
-```
-
-View your local preview at `http://localhost:3000`.
-
-## Publishing changes
-
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+Follow Pulsr on Twitter: [@pulsrnews](https://x.com/pulsrnews)
