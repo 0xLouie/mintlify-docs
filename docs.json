@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "Pulsr",
-  "theme": "venus",
-  "favicon": "/favicon.svg",
+  "theme": "maple",
+  "favicon": "images/favicon.svg",
   "colors": {
     "primary": "#16A34A",
     "light": "#4ADE80",
