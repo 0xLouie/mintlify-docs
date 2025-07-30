@@ -1,112 +1,80 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
   "name": "Pulsr",
+  "theme": "venus",
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "📘 Getting Started",
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "index",
-              "what-is-pulsr",
-              "key-features",
-              "quick-start-guide",
-              "faq"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "⚙️ How It Works",
-        "groups": [
-          {
-            "group": "Core Features",
-            "pages": [
-              "real-time-monitoring",
-              "ai-pipeline",
-              "market-impact",
-              "dashboard-integration"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "📡 Alerts & Output",
-        "groups": [
-          {
-            "group": "Output & Formatting",
-            "pages": [
-              "what-gets-posted",
-              "tweet-format",
-              "limitations"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "🤖 AI & Models",
-        "groups": [
-          {
-            "group": "Technical Details",
-            "pages": [
-              "nlp-models",
-              "relevance-sentiment"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "💬 Support & Community",
-        "groups": [
-          {
-            "group": "Get Help",
-            "pages": [
-              "contact-feedback",
-              "twitter-discord"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Twitter",
-          "href": "https://x.com/pulsrnews",
-          "icon": "x"
-        }
-      ]
+    "light": "#4ADE80",
+    "dark": "#15803D",
+    "background": {
+      "dark": "#0F0F11",
+      "light": "#FFFFFF"
     }
+  },
+  "topbarCtaButton": {
+    "name": "Launch App",
+    "url": "https://dashboard.pulsr.com"
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@pulsr.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.pulsr.com"
+  "topbarLinks": [
+  ],
+  "navigation": [
+    {
+      "group": "📘 Getting Started",
+      "pages": [
+        "index",
+        "what-is-pulsr",
+        "key-features",
+        "quick-start-guide",
+        "faq"
+      ]
+    },
+    {
+      "group": "⚙️ How It Works",
+      "pages": [
+        "real-time-monitoring",
+        "ai-pipeline",
+        "market-impact",
+        "dashboard-integration"
+      ]
+    },
+    {
+      "group": "📡 Alerts & Output",
+      "pages": [
+        "what-gets-posted",
+        "tweet-format",
+        "limitations"
+      ]
+    },
+    {
+      "group": "🤖 AI & Models",
+      "pages": [
+        "nlp-models",
+        "relevance-sentiment"
+      ]
+    },
+    {
+      "group": "💬 Support & Community",
+      "pages": [
+        "contact-feedback",
+        "twitter-discord"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://x.com/pulsrnews"
+  },
+  "analytics": {
+    "gtm": {
+      "tagId": "GTM-XXXXXX"
     }
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/pulsrnews"
-    }
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
   }
 }
