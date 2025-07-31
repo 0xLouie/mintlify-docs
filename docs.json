@@ -24,7 +24,6 @@
         "group": "⚙️ How It Works",
         "pages": [
           "real-time-monitoring",
-          "ai-pipeline",
           "market-impact",
           "dashboard-integration"
         ]
@@ -40,7 +39,6 @@
       {
         "group": "🤖 AI & Models",
         "pages": [
-          "nlp-models",
           "relevance-sentiment"
         ]
       },
